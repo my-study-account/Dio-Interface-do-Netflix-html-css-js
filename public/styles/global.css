@@ -1,0 +1,108 @@
+:root {
+  --primary-color: #E50914;
+  --secondary-color: #141414;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  background: var(--secondary-color);
+  font-family: 'Arial', Times, serif;
+  color: #FFF;
+}
+
+header {
+  width: 100%;
+  padding: 10px 20px;
+}
+
+header .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header .container h2 {
+  color: var(--primary-color);
+  font-family: "Arial black", sans-serif;
+  font-size: 40px;
+  text-transform: uppercase;
+}
+
+header .container nav ul a {
+  text-decoration: none;
+  color: #AAA;
+  margin-left: 10px;
+  transition: color 900ms ease-in-out;
+}
+
+header .container nav ul a:hover {
+  color: #FFF;
+}
+
+main .main-content {
+  width: 100%;
+  height: 700px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background: linear-gradient(rgba(0, 0, 0, .50), rgba(0, 0, 0, .50)100%), url('../assets/cover/hkkR14vBgGV4TM0e7BGlMcAQETS.jpg');
+}
+
+main .main-content aside {
+  width: 70%;
+}
+
+main .main-content aside h3 {
+  margin-top: 15%;
+  font-size: 40px;
+  font-family: 'Trebuchet MS', Arial, sans-serif;
+}
+
+main .main-content aside p {
+  margin-top: 10px;
+  margin-bottom: 40px;
+  font-size: 18px;
+}
+
+.btn-main-content {
+  padding: 15px;
+  margin-right: 15px;
+  background: rgba(0, 0, 0, .5);
+  border: 0;
+  font-size: 12px;
+  font-weight: bold;
+  color: #FFF;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: 1000ms ease-in-out;
+}
+
+.btn-main-content:hover {
+  background: #FFF;
+  color: black;
+}
+
+.btn-main-content i {
+  margin-right: 8px;
+}
+
+.carrousel-movies {
+  margin-top: 5px
+}
